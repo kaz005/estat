@@ -1,18 +1,15 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.Python
-.venv/
-env/
-venv/
-ENV/
-
-# IDE
-.idea/
-.vscode/
-
 # Project specific
 data/
-*.log
 temp_*
+
+# Virtual Environment
+.venv/
+.venv/**
+
+# Python
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
+*.py[cod]
+*$py.class
